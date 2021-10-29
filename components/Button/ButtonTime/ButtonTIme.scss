@@ -1,0 +1,27 @@
+.MuiButton-root {
+  &.btn-time {
+    font-weight: 500;
+    font-size: 14px;
+    font-family: "Jost";
+    border-radius: 6px;
+    height: 46px;
+    min-width: 86px;
+    &.btn-time-active {
+      background: rgba(28, 0, 86, 0.1);
+      border: 1px solid #1c0056;
+    }
+    &.btn-time-default {
+      background: #ffffff;
+      border: 1px solid #d6d6d6;
+    }
+    &.btn-time-inactive {
+      background: #f1f1f1;
+      border: 1px solid #d6d6d6;
+      color: #959595;
+    }
+    &.btn-time-blocked {
+      background: #f1f1f1;
+      color: transparent;
+    }
+  }
+}

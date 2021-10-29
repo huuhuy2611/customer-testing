@@ -1,0 +1,35 @@
+.custom-chip {
+  width: 100%;
+  .hide-bg {
+    background-color: unset !important;
+  }
+  .MuiChip-root {
+    border-radius: 6px;
+    background-color: #fdf4e7;
+    color: #603d11;
+    height: unset;
+    padding: 7px 0;
+  }
+  .MuiChip-colorPrimary,
+  .MuiChip-clickableColorPrimary:hover,
+  .MuiChip-clickableColorPrimary:focus {
+    background-color: #d7e9ff;
+    color: #0c62ca;
+  }
+  .MuiChip-colorSecondary {
+    background-color: #ffeeeb;
+    color: #515151;
+  }
+  .MuiChip-label {
+    font-weight: 500;
+    max-width: 100%;
+    white-space: initial;
+  }
+  .MuiChip-clickable:hover,
+  .MuiChip-clickable:focus {
+    background-color: #fdf4e7;
+  }
+  .MuiChip-icon {
+    font-size: 16px;
+  }
+}
